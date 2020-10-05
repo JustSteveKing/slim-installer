@@ -2,7 +2,7 @@ name: tests
 
 on:
   push:
-  pull_requesruns_t:
+  pull_request:
 
 jobs:
   linux_tests:
