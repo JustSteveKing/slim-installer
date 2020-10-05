@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":256:{a:2:{s:7:"defects";a:1:{s:92:"JustSteveKing\Slim\Installer\Console\Tests\NewCommandTest::it_will_create_a_new_slim_project";i:4;}s:5:"times";a:1:{s:92:"JustSteveKing\Slim\Installer\Console\Tests\NewCommandTest::it_will_create_a_new_slim_project";d:8.356;}}}

@@ -1,0 +1,41 @@
+{
+    "name": "juststeveking/slim-installer",
+    "description": "Slim PHP Application Installer",
+    "keywords": ["slimphp", "slim-framework", "installer"],
+    "require": {
+        "php": "^7.3",
+        "symfony/console": "^5.2@dev",
+        "symfony/process": "^5.2@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5@dev",
+        "symfony/var-dumper": "^5.2@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "developer",
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com",
+            "homepage": "https://www.juststeveking.uk/"
+        }
+    ],
+    "bin": [
+        "bin/slim"
+    ],
+    "autoload": {
+        "psr-4": {
+            "JustSteveKing\\Slim\\Installer\\Console\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JustSteveKing\\Slim\\Installer\\Console\\Tests\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
