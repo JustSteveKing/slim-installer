@@ -101,21 +101,6 @@ class NewCommand extends Command
         }
     }
 
-    /**
-     * Get the version that should be downloaded.
-     *
-     * @param  \Symfony\Component\Console\Input\InputInterface  $input
-     * @return string
-     */
-    protected function getVersion(InputInterface $input)
-    {
-        if ($input->getOption('which')) {
-            return $input->getOption('which');
-        }
-
-        return '';
-    }
-
 
     /**
      * Get the composer command for the environment.
@@ -140,7 +125,7 @@ class NewCommand extends Command
         }, $this->projects);
     }
 
-        /**
+    /**
      * Run the given commands.
      *
      * @param  array  $commands
