@@ -12,7 +12,7 @@ jobs:
       matrix:
         php: [7.4]
 
-    name: PHP ${{ matrix.php }}
+    name: PHP ${{ matrix.php }} on Linux
 
     steps:
       - name: Checkout Code
@@ -39,7 +39,7 @@ jobs:
       matrix:
         php: [7.4]
 
-    name: PHP ${{ matrix.php }}
+    name: PHP ${{ matrix.php }} on Windows
 
     steps:
 
